@@ -3,11 +3,11 @@ package com.company;
 public class Main {
 
     public static void main(String[] args) {
-        byte ByteNumber = 120;
-        short ShortNumber = 25000;
-        int IntNumber = 20000;
+        byte ByteNumber = 10;
+        short ShortNumber = 20;
+        int IntNumber = 50;
 
-        long LongNumber = 50000  + 10*(((long)ByteNumber + (long)ShortNumber + (long)IntNumber));
+        long LongNumber = 50000L  + 10L*((ByteNumber + ShortNumber + IntNumber));
         System.out.println("LongNumber = " + LongNumber);
 
     }
