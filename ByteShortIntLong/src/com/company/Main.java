@@ -28,5 +28,8 @@ public class Main {
         System.out.println("Long Min Value = " + myMinLongValue);
         System.out.println("Long Max Value = " + myMaxLongValue);
 
+        // Casting - explicitly convert one number type to another
+        byte myNewByteValue = (byte)(myMinIntValue / 2);
+        short myNewShortValue = (short)(myMinShortValue/2);
     }
 }
